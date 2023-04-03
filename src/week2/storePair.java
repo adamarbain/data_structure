@@ -33,6 +33,7 @@ public class storePair implements Comparable<storePair> {
     }
     
     // method named 'equals' that will return boolean 
+    @Override
     public boolean equals(Object obj) { 
         if (obj instanceof storePair) { // checking whether object is an instance of the specified type (class or subclass or interface)
             storePair other = (storePair) obj; // declaring first value from second object = other

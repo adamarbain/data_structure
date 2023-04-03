@@ -19,7 +19,7 @@ public class L2Q3 {
         storePair c = new storePair(6, 3);
 
         // using toString method to display the value of first and second
-        System.out.println("a: " + a.toString());
+        System.out.println("a: " + a);
         System.out.println("b: " + b.toString());
         System.out.println("c: " + c.toString());
         System.out.println("");

@@ -16,12 +16,10 @@ public class T2Q8 {
         ArrayList<Double> milesPerHour = new ArrayList<>();
     
         numOfCars.add(1);
-        numOfCars.add(1);
-        numOfCars.add(1);
+        
         
         milesPerHour.add(100.69);
-        milesPerHour.add(100.69);
-        milesPerHour.add(100.69);
+        
         
         // calling method to dsiplay the array
         displayList(numOfCars);
@@ -31,9 +29,9 @@ public class T2Q8 {
     // declaring a generic method that accept an Arraylist parameter 
     public static void displayList(ArrayList<?> list) {
         // unbounded wildcard '<?>' used meaning this method can accept Arraylist of any type
-    for (Object itemSame : list) { // for-each loop to iterate over the element of the ArrayList
+    for (int i = 0 ; i<list.size() ; i++) { // for-each loop to iterate over the element of the ArrayList
         // Since we don't know the actual type of the ArrayList, we use the 'Object' type
-        System.out.println(itemSame.toString());
+        System.out.println(list);
     }
 }
 

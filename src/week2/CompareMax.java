@@ -37,5 +37,7 @@ public class CompareMax {
         // calling the method while declaring the maximum value between three parameter
         Integer max = maximum(a,b,c);
         System.out.println("Highest value : " +max);
+        
+        System.out.println("Highest char : "+CompareMax.<Character>maximum('a','b','c'));
     }
 }
