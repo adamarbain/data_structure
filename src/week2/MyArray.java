@@ -18,8 +18,8 @@ public class MyArray {
         Character[] charArray =  {'a', 'b', 'c'}; // arrays of string
         
         // calling the method "listAll" to diplays the list of arrays
-        MyArray.<Integer>listAll(intArray);
-        MyArray.<String>listAll(stringArray);
+        MyArray.listAll(intArray);
+        MyArray.<String>listAll(stringArray); // shall putting the <type> to call generic method
         MyArray.<Character>listAll(charArray);
         
         

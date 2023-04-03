@@ -26,12 +26,12 @@ public class StrorePairGeneric <Y,Z> {
         return first;
     }
 
-    // mutator
+    // accessor
     public Z getZ() {
         return second;
     }
 
-    // a mehtod to set the value of the first and second variables
+    // a method to set the value of the first and second variables
     public void setPair(Y y, Z z){
         this.first = first ;
         this.second = second ;

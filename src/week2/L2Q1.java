@@ -17,9 +17,9 @@ public class L2Q1 {
         // creating instances of genreic class of type integer
         MyGeneric <Integer> intObj = new MyGeneric<> (21);
     
-        // displat these values assigned earlier using getter method
+        // display these values assigned earlier using getter method
         System.out.println(strObj.getE());
-        System.out.println(intObj.getE());
+        System.out.println("Age : "+intObj.getE());
     }
     
 }

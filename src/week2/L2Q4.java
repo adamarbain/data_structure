@@ -13,7 +13,7 @@ public class L2Q4 {
     public static void main(String[] args) {
         
         // creating two arrays named intArray and strArray
-        Integer [] intArray = {5, 3, 7, 1, 4, 9, 8, 2};
+        Integer [] intArray = {5,3,7,1,4,9,8,2};
         String[] strArray = {"red", "blue", "orange", "tan"};
 
         // invoke 'minmax' method to each array
@@ -26,9 +26,14 @@ public class L2Q4 {
     
     // method named 'minmax' have an array of generic type as its parameter 
     public static <T extends Comparable<T>> String minmax(T[] values) { // takes array of generic type 'T'
+        
+        if (values.length == 0){
+            return "";
+        }
+        
         // 'Comparable' interface extends allowing to compare values 
-        T min = values[0]; // declaring min variable with type T
-        T max = values[0]; // declaring max variable with type T
+        T min = values[0]; // declaring min variable with type T as the first elements of 'values' array
+        T max = values[0]; // declaring max variable with type T as the first elements of 'values' array
         
         for (int i = 1; i < values.length; i++) {
             if (values[i].compareTo(min) < 0) {
