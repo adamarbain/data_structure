@@ -65,7 +65,7 @@ public final class ArrayBag<T> implements BagInterface<T>
       // The cast is safe because the new array contains null entries.
       @SuppressWarnings("unchecked")
       T[] result = (T[])new Object[numberOfEntries]; // Unchecked cast
-
+      
       for (int index = 0; index < numberOfEntries; index++) 
       {
          result[index] = bag[index];
