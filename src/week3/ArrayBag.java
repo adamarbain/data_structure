@@ -123,7 +123,10 @@ public final class ArrayBag<T> implements BagInterface<T>
 	{
       while (!isEmpty())
          remove();
-	} // end clear
+	/*bag = (T[]) new object [DEFAULT_CAPACITY] ;
+     numberOfEntries = 0;
+   */
+      } // end clear
 	
 	/** Removes one unspecified entry from this bag, if possible.
        @return  Either the removed entry, if the removal
