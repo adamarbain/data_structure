@@ -33,8 +33,8 @@ public class StrorePairGeneric <Y,Z> {
 
     // a method to set the value of the first and second variables
     public void setPair(Y y, Z z){
-        this.first = first ;
-        this.second = second ;
+        this.first = y ;
+        this.second = z ;
     }
     
     // method that return the value of first variable and second variable in String

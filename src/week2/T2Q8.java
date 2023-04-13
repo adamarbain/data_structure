@@ -27,7 +27,7 @@ public class T2Q8 {
     }
     
     // declaring a generic method that accept an Arraylist parameter 
-    public static void displayList(ArrayList<?> list) {
+    public static void displayList(ArrayList<? extends Object> list) {
         // unbounded wildcard '<?>' used meaning this method can accept Arraylist of any type
     for (int i = 0 ; i<list.size() ; i++) { // for-each loop to iterate over the element of the ArrayList
         // Since we don't know the actual type of the ArrayList, we use the 'Object' type

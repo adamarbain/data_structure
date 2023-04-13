@@ -19,7 +19,7 @@ public class MyArray {
         
         // calling the method "listAll" to diplays the list of arrays
         MyArray.listAll(intArray);
-        MyArray.<String>listAll(stringArray); // shall putting the <type> to call generic method
+        MyArray.listAll(stringArray); // shall putting the <type> to call generic method
         MyArray.<Character>listAll(charArray);
         
         
