@@ -26,7 +26,7 @@ public class TestLinkedList {
         System.out.println("Last value: " + object.getLast());
 
         //f
-        object.remove(2);
+        System.out.println("Third value removed: "+object.remove(2));
         object.print();
 
         //g
@@ -40,8 +40,6 @@ public class TestLinkedList {
 
         for(int i = 0 ; i<object.getSize() ; i++)
             object.set(java[i], i);
-            System.out.println(object.getSize());
-
             object.print();
            
         
