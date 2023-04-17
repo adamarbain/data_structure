@@ -13,7 +13,12 @@ public class Node<E>{
          @constructor takes two parameters: an element of type E 
          and a Node<E> object representing the next node in the list
         */
-    public Node(E element,Node next) {
+    
+    public Node(E element) {
+        this.element = element;
+    }
+    
+    public Node(E element,Node<E> next) {
         this.element = element;
         this.next = next;
     }

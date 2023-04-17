@@ -7,7 +7,7 @@ public class MyLinkedList<E> {
     private Node<E> head;
     private Node<E> tail ;
     private int size ;
-
+    
     /**
      * 
      * @return the size of the list
@@ -24,7 +24,7 @@ public class MyLinkedList<E> {
      * @param e as new element of node to be added the beginning of the list
      */
     public void addFirst(E e){
-        Node<E> firstNode = new Node<E>(e,head); // initialize 'firstNode' with element'e' and current head
+        Node<E> firstNode = new Node<E>(e,null); // initialize 'firstNode' with element'e' and current head
         head = firstNode;
         if(tail == null) // no node exist
             tail = firstNode; 
@@ -276,6 +276,11 @@ public class MyLinkedList<E> {
      */
     public void reverse(){
         // reverse() method is to reverse the list
+        /**
+         * Node<E> current = head;
+         * for (int i = size - 1; i >= 0; i--) {
+         *      
+         */
         Node<E> current = head;
         Node<E> previous = null;
         Node<E> next = null;
