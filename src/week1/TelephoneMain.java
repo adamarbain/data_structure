@@ -26,6 +26,7 @@ public class TelephoneMain {
         for (Telephone telephone : tele){
             System.out.println(telephone.makeFullNumber());
         }
+        input.close();
     }
     
 }
