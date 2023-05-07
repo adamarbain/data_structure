@@ -36,7 +36,7 @@ public class ReadMyLetter_U2101735 {
         write.println(newSentence); // inserting input entered by user to be written in the text file 
         }
         write.close(); // closing the writer
-       
+        input.close();
         }
     catch(FileNotFoundException e){
             System.out.println("file not found");
