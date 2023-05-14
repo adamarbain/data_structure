@@ -32,7 +32,7 @@ class Queue<T> {
  *
  * Q3
  * (a) 1 4 5 2 3
- * (b) true false true false true
+ * (b) Not possible
  * (c) true true true true true
  *     true true true true false
  *     true false false false false
