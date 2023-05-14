@@ -1,0 +1,21 @@
+
+1. Describe the main difference between Queue and PriorityQueue
+
+Queue :-
+1. Queue is a linear data structure which follows FIFO (First In First Out) order.
+2. Queue is open at both end.
+3. Queue is used when things don't have to be processed immediately, but have to be processed in First In First Out order like Breadth First Search.
+4. Queue is implemented using Array, Linked List, Stack.
+
+PriorityQueue :-
+1. PriorityQueue is a linear data structure which follows FIFO (First In First Out) order.
+2. PriorityQueue is open at both end.   
+3. PriorityQueue is used when things have to be processed immediately, but have to be processed in First In First Out order like Dijkstra's Algorithm.
+4. PriorityQueue is implemented using Heap.
+
+2. Briefly provide THREE (3) real-life example in using PriorityQueue.
+
+1. Dijkstra's Algorithm
+2. A* Search Algorithm
+3. Prim's Algorithm
+
