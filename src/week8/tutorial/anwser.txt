@@ -13,9 +13,17 @@ PriorityQueue :-
 3. PriorityQueue is used when things have to be processed immediately, but have to be processed in First In First Out order like Dijkstra's Algorithm.
 4. PriorityQueue is implemented using Heap.
 
-2. Briefly provide THREE (3) real-life example in using PriorityQueue.
+2. Briefly provide real-life examples in using PriorityQueue.
 
 1. Dijkstra's Algorithm
 2. A* Search Algorithm
 3. Prim's Algorithm
+4. Huffman Coding
+5. Best First Search Algorithm
+6. Uniform Cost Search Algorithm
+7. Iterative Deepening A* Search Algorithm
+8. Iterative Deepening Depth First Search Algorithm
+9. Iterative Deepening Uniform Cost Search Algorithm
+10. Iterative Deepening A* Search Algorithm
+
 
