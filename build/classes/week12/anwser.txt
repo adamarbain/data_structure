@@ -1,0 +1,93 @@
+Q1
+Compare between linear search and binary search algorithms by searching for the numbers 45 and 54 in the following list :
+3 8 12 34 54 85 61 110
+
+The anwser:
+Linear search:
+45 is not found
+54 is found at index 4
+
+Binary search:
+45 is not found
+54 is found at index 4
+
+Q2
+Describe the technique for each sort algorithm below. Given the following list:
+90 8 7 56 125 237 9 1 653
+Show a trace of execution for:
+a. Selection sort
+b. Insertion sort
+c. Bubble sort
+d. Merge sort
+
+The anwser:
+a. Selection sort:
+90 8 7 56 125 237 9 1 653
+1 8 7 56 125 237 9 90 653
+1 7 8 56 125 237 9 90 653
+1 7 8 56 125 237 9 90 653
+1 7 8 9 125 237 56 90 653
+1 7 8 9 56 237 125 90 653
+1 7 8 9 56 90 125 237 653
+explaination:
+The selection sort algorithm sorts an array by repeatedly finding the minimum element 
+(considering ascending order) from unsorted part and putting it at the beginning.
+
+
+b. Insertion sort:
+90 8 7 56 125 237 9 1 653
+8 90 7 56 125 237 9 1 653
+7 8 90 56 125 237 9 1 653
+7 8 56 90 125 237 9 1 653
+7 8 56 90 125 237 9 1 653
+7 8 56 90 125 237 9 1 653
+7 8 9 56 90 125 237 1 653
+1 7 8 9 56 90 125 237 653
+explaination:
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands.
+
+c. Bubble sort:
+90 8 7 56 125 237 9 1 653
+8 7 56 90 125 9 1 653 237
+7 8 56 90 9 1 653 125 237
+7 8 56 9 1 653 90 125 237
+7 8 9 1 653 56 90 125 237
+7 8 1 653 9 56 90 125 237
+7 1 653 8 9 56 90 125 237
+1 653 7 8 9 56 90 125 237
+1 7 8 9 56 90 125 237 653
+explaination:
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+
+d. Merge sort:
+90 8 7 56 125 237 9 1 653   //original
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+90 8 7 56 125 237 9 1 653   //split
+8 90 7 56 125 237 9 1 653   //merge
+7 8 90 56 125 237 9 1 653   //merge
+7 8 56 90 125 237 9 1 653   //merge
+7 8 56 90 125 237 9 1 653   //merge
+7 8 56 90 125 237 9 1 653   //merge
+7 8 56 90 125 237 9 1 653   //merge
+7 8 56 90 125 237 9 1 653   //merge
+7 8 56 90 125 237 9 1 653   //merge
+1 7 8 9 56 90 125 237 653   //merge
+explaination:
+Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, 
+calls itself for the two halves and then merges the two sorted halves.
+
+Q3 
+- Merge Sort
+
+Q4
+- Insertion Sort
+
+Q5
+- Linear Search
+
