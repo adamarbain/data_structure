@@ -35,7 +35,11 @@ public class Queue<E> {
     }
     
     public String toString(){
-        return "Queue:" + queue.toString();
+        return  queue.toString();
+    }
+    
+    public LinkedList getQueue(){
+        return queue ;
     }
     
     
