@@ -30,7 +30,7 @@ public class test<E> {
        
         System.out.println("(Please enter a number between 1 to 26)");
         Scanner sc = new Scanner (System.in);
-        Queue<Integer> q = new Queue();
+        Queue<Integer> q = new Queue<>();
         for (int i = 1 ; i<=k ; i++){
             System.out.print("Enter a number "+i+" >> ");
             int num = sc.nextInt();
