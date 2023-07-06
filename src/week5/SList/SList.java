@@ -37,7 +37,6 @@ public class SList<E> {
     }
 
     /**
-     * 
      * @param e as the element to be compared to the elements in the list
      * @return true if the list contains the element e,
      *        false if the list does not contain the element e
